@@ -8,11 +8,14 @@ from langchain.agents import AgentType
 from langchain.utilities import PythonREPL
 from langchain.utilities import WikipediaAPIWrapper
 import openai
-import config
+#import config
+import os
 
+
+#os.environ['OPENAI_KEY'] = 'sk-'
 #get Openapi key
-api_key= config.DevelopmentConfig.OPENAI_KEY
-
+#api_key= config.DevelopmentConfig.OPENAI_KEY
+api_key = os.getenv('OPENAI_KEY')
 openai.api_key = api_key
 
 
