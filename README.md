@@ -15,7 +15,7 @@ This is a chatbot application built with Flask, Langchain, and OpenAI's GPT 3.5 
 
 To install and run the application make sure you have Python and git installed on your computer then follow these steps:
 
-1. Clone the repository to your local machine using `git clone <this repo>` on your terminal.
+1. Clone the repository to your local machine using `git clone https://github.com/Phunbie/Langchain-chat.git` on your terminal.
 2. Install the required dependencies using `pip install -r requirements.txt`.
 3. Create an OpenAI API key and add it to your environment variables.
 4. Run the application using `python main.py`.
