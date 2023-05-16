@@ -38,7 +38,7 @@ Example chatbot commands:
 
 ## Demo
 
-[Click here](https://flask-chatbot-langchain.herokuapp.com/) to view a live demo of the application.
+[Click here](https://langchain-chatbot-clone.funbi.repl.co/) to view a live demo of the application.
 
 ## Contributing
 
