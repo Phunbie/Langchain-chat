@@ -14,10 +14,9 @@ import os
 
 #os.environ['OPENAI_KEY'] = 'sk-'
 #get Openapi key
-#api_key= config.DevelopmentConfig.OPENAI_KEY
 api_key = os.getenv('OPENAI_KEY')
 openai.api_key = api_key
-
+ 
 
 #Create tools that will be used
 
@@ -67,7 +66,7 @@ def chat():
 def get_Chat_response(text):
    ans= agent_chain.run(text)
    try:
-     answer = ans.replace('\n', '<br>')
+     answer = ans    #.replace('\n', '<br>')
    except:
      answer = "opps no response"
    print(answer)
